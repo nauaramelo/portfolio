@@ -12,7 +12,7 @@ const Container = styled.div`
 const CardEuSou = styled.div`
     grid-area: card;
     /* width: 840px; */
-    height: 522px;
+    /* height: 522px; */
     background-color: rgba(113, 202, 223, 0.47);
     display: flex;
     flex-direction: column;
@@ -63,9 +63,10 @@ const ImagemDiv = styled.div`
 `
 
 const Photo = styled.img`
-    width: 410px;
-    height: 522px; 
+    width: 100%;
+    height: 100%; 
 `
+
 
 export const QuemSou = (props) => {
 
