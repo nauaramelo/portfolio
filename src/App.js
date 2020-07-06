@@ -2,12 +2,14 @@ import React from 'react';
 import './App.css';
 import { Header } from './containers/Header';
 import { QuemSou } from './containers/QuemSou';
+import { SobreMim } from './containers/SobreMim';
 
 function App() {
   return (
     <div className="App">
       <Header />
       <QuemSou />
+      <SobreMim />
     </div>
   );
 }
