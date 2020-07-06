@@ -60,6 +60,8 @@ const Subtitulo2 = styled.div`
 `
 const ImagemDiv = styled.div`
     grid-area: photo;
+    height: 100%;
+    width: 100%;
 `
 
 const Photo = styled.img`
