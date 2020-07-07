@@ -3,6 +3,7 @@ import './App.css';
 import { Header } from './containers/Header';
 import { QuemSou } from './containers/QuemSou';
 import { SobreMim } from './containers/SobreMim';
+import { OQueFaco } from './containers/OQueFaco';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <QuemSou />
       <SobreMim />
+      <OQueFaco />
     </div>
   );
 }
