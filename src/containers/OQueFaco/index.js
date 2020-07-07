@@ -8,10 +8,10 @@ const Container = styled.div`
 `
 
 const Title = styled.div`
-    width: 154px;
-    height: 30px;
+    /* width: 154px; */
+    height: 60px;
     font-family: Montserrat;
-    font-size: 25px;
+    font-size: 35px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -19,6 +19,7 @@ const Title = styled.div`
     letter-spacing: -0.15px;
     text-align: center;
     color: #ffffff;
+    padding-top: 40px;
 `
 const Caption = styled.div`
     width: 218px;
@@ -34,6 +35,7 @@ const Caption = styled.div`
 `
 
 const Text = styled.div`
+    padding-top: 10px;
     width: 247px;
     height: 133px;
     font-family: Montserrat;
@@ -52,8 +54,9 @@ const Back = styled.div`
     
 `
 const FrontBack = styled.div`
+    padding-top: 50px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;    
 `
 
@@ -70,8 +73,8 @@ export const OQueFaco = () => {
                         Front-end
                     </Caption>
                     <Text>
-                        Desenvolvimento de aplicações web utilizando HTML, CSS e JavaScript.
-
+                        Desenvolvimento de aplicações web utilizando HTML, CSS e JavaScript. <br/>
+                        <br/>
                         Criação de sites responsivos seguindo princípio de Mobile First.
                     </Text>
                 </Front>
@@ -80,8 +83,8 @@ export const OQueFaco = () => {
                         Back-end
                     </Caption>
                     <Text>
-                        Aplicações utilizando NodeJS, Typescript e MySQL.
-
+                        Aplicações utilizando NodeJS, Typescript e MySQL. <br/>
+                        <br/>
                         Criação de API´s para comunicação com front-end seguindo princípio de Clean Code.
                     </Text>
                 </Back>
