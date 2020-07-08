@@ -5,6 +5,7 @@ import { QuemSou } from './containers/QuemSou';
 import { SobreMim } from './containers/SobreMim';
 import { OQueFaco } from './containers/OQueFaco';
 import { Educacao } from './containers/Educacao';
+import { Projetos } from './containers/Projetos';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <SobreMim />
       <OQueFaco />
       <Educacao />
+      <Projetos />
     </div>
   );
 }
