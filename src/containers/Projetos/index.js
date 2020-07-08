@@ -149,9 +149,11 @@ export const Projetos = () => {
                         <Text>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </Text>
-                        <Button>
-                            Ver no Github
-                        </Button>
+                        <a href={'https://github.com/nauaramelo/labenu-4eddit-frontend'} target='blank'>
+                            <Button>
+                                Ver no Github
+                            </Button>
+                        </a>
                     </Infos>
                 </Card>
                 <Card>
@@ -165,9 +167,11 @@ export const Projetos = () => {
                         <Text>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </Text>
-                        <Button>
-                            ver no Github
-                        </Button>
+                        <a href={'https://github.com/nauaramelo/labenu-labook-backend'} target='blank'>
+                            <Button>
+                                ver no Github
+                            </Button>
+                        </a>
                     </Infos>
                     <Memoji src={ipad} title="Labook"/>
                 </Card>
@@ -184,12 +188,16 @@ export const Projetos = () => {
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </Text>
                         <ButtonsCostumers>
-                            <ButtonFullStack>
-                                front-end no Github
-                            </ButtonFullStack>
-                            <ButtonFullStack>
-                                back-end no Github
-                            </ButtonFullStack>
+                            <a href={'https://github.com/nauaramelo/spotenu-front'} target='blank'>
+                                <ButtonFullStack>
+                                    front-end no Github
+                                </ButtonFullStack>
+                            </a>
+                            <a href={'https://github.com/nauaramelo/spotenu-back'} target='blank'>
+                                <ButtonFullStack>
+                                    back-end no Github
+                                </ButtonFullStack>
+                            </a>
                         </ButtonsCostumers>
                     </Infos>
                 </Card>
