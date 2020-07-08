@@ -124,6 +124,11 @@ const ButtonsCostumers = styled.div`
     display: flex;
     flex-direction: row;
 `
+const DivButton = styled.div`
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+`
 
 const Infos = styled.div`
     grid-area: "infos";
@@ -151,7 +156,7 @@ export const Projetos = () => {
                         </Text>
                         <a href={'https://github.com/nauaramelo/labenu-4eddit-frontend'} target='blank'>
                             <Button>
-                                Ver no Github
+                                ver no Github
                             </Button>
                         </a>
                     </Infos>
@@ -168,9 +173,11 @@ export const Projetos = () => {
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </Text>
                         <a href={'https://github.com/nauaramelo/labenu-labook-backend'} target='blank'>
-                            <Button>
-                                ver no Github
-                            </Button>
+                            <DivButton>
+                                <Button>
+                                    ver no Github
+                                </Button>
+                            </DivButton>
                         </a>
                     </Infos>
                     <Memoji src={ipad} title="Labook"/>
