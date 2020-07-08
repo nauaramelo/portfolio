@@ -7,6 +7,7 @@ import { OQueFaco } from './containers/OQueFaco';
 import { Educacao } from './containers/Educacao';
 import { Projetos } from './containers/Projetos';
 import { Contact } from './containers/Contact';
+import { Footer } from './containers/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Educacao />
       <Projetos />
       <Contact />
+      <Footer />
     </div>
   );
 }
