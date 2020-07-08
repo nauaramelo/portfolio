@@ -6,6 +6,7 @@ import { SobreMim } from './containers/SobreMim';
 import { OQueFaco } from './containers/OQueFaco';
 import { Educacao } from './containers/Educacao';
 import { Projetos } from './containers/Projetos';
+import { Contact } from './containers/Contact';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <OQueFaco />
       <Educacao />
       <Projetos />
+      <Contact />
     </div>
   );
 }
