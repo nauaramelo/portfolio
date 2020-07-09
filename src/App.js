@@ -8,6 +8,7 @@ import { Educacao } from './containers/Educacao';
 import { Projetos } from './containers/Projetos';
 import { Contact } from './containers/Contact';
 import { Footer } from './containers/Footer';
+ 
 
 function App() {
   return (

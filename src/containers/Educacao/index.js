@@ -69,6 +69,7 @@ const TextCard = styled.div`
     line-height: normal;
     letter-spacing: -0.16px;
     color: #377d8c;
+    text-align: justify;
 `
 
 export const Educacao = () => {
@@ -87,27 +88,27 @@ export const Educacao = () => {
                     <TextCard>
                         6 meses - 2020 <br/>
                         <br/>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        A Labenu é uma startup que forma Desenvolvedores Web Full Stack prontos para o mercado de trabalho. São mais de 1000 horas de programação que faz com que seus alunos sejam profissionais completos tanto no Back-End quanto no Front End. 
                     </TextCard>
                 </Card>
                 <Card>
                     <TitleCard>
-                        Administração  
+                        Administração na Faculdade Maurício de Nassau
                     </TitleCard>
                     <TextCard>
                         4 anos - 2011-2014 <br/>
                         <br/>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        Bacharel em Administração pela Faculdade Mauricio de Nassau, estudei planejamento, organização e gerenciamento do uso dos recursos pessoais e financeiros de uma organização. Além de práticas para elaboração de estratégias visando melhorar o desempenho da empresa, maximizar os lucros, evitar desperdícios e reduzir custos.
                     </TextCard>
                 </Card>
                 <Card>
                     <TitleCard>
-                        Relações Públicas   
+                        Relações Públicas na Universidade Federal da PB
                     </TitleCard>
                     <TextCard>
-                        6 meses - 2020 <br/>
+                        5 anos - 2012 - 2017 <br/>
                         <br/>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        A UFPB forma profissionais que constroem, promovem e preservam a imagem e reputação de empresas, marcas e instituições, por meio de projetos de comunicação. Suas estratégias criativas afetam diretamente a dinâmica das organizações, ao colaborar com a criação da identidade e da imagem corporativa. 
                     </TextCard>
                 </Card>
             </Cards>

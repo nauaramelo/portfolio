@@ -58,13 +58,14 @@ const Text = styled.div`
     padding-top: 18px;
     height: 122px;
     font-family: Montserrat;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
     letter-spacing: -0.16px;
     color: #ffffff;
+    text-align: justify;
 `
 
 const ButtonFullStack = styled.button`
@@ -152,7 +153,7 @@ export const Projetos = () => {
                             Front-end
                         </CaptionCard>
                         <Text>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            Esse é um projeto para implementar uma rede social em ReactJs. A ideia é fazer uma rede real, com cadastro, login, posts, likes e comentários, tendo como base o reddit.com. Foi desenvolvido no módulo Front-end do Curso Web Full Stack da Labenu e também foi utilizado redux, axios, styled components e material ui.  
                         </Text>
                         <a href={'https://github.com/nauaramelo/labenu-4eddit-frontend'} target='blank'>
                             <Button>
@@ -170,7 +171,7 @@ export const Projetos = () => {
                             Back-end
                         </CaptionCard>
                         <Text>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        O LaBook é uma rede social com o objetivo de promover a conexão e interação entre seus mais diversos usuários. Os usuários podem criar posts de dois tipos ("evento" ou "normal), comentá-los e curti-los também. Foi desenvolvido em node, com typeScript, express, knex e utiliza como banco de dados o MYSQL.  
                         </Text>
                         <a href={'https://github.com/nauaramelo/labenu-labook-backend'} target='blank'>
                             <DivButton>
@@ -192,7 +193,7 @@ export const Projetos = () => {
                             Full Stack
                         </CaptionCard>
                         <Text>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            O Spotenu é um projeto que visa facilitar o acesso a músicas pelo mundo. Para isso, oferece suporte para dois tipos de usuários: as bandas (ou músicos) e os ouvintes (usuários que consomem as músicas). Além disso, montamos uma operação com funcionários próprios que precisam gerenciar os dados que circulam no nosso sistema. 
                         </Text>
                         <ButtonsCostumers>
                             <a href={'https://github.com/nauaramelo/spotenu-front'} target='blank'>
@@ -208,9 +209,11 @@ export const Projetos = () => {
                         </ButtonsCostumers>
                     </Infos>
                 </Card>
-            <ButtonAllProjects>
-                mais projetos
-            </ButtonAllProjects>
+                <a href={'https://github.com/nauaramelo'} target='blank'>
+                    <ButtonAllProjects>
+                        mais projetos
+                    </ButtonAllProjects>
+                </a>
             </Cards>
         </Container>
     )

@@ -34,14 +34,14 @@ const Text = styled.div`
     width: 368px;
     height: 122px;
     font-family: Roboto;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
     letter-spacing: -0.16px;
     color: #ffffff;
-    text-align: initial;
+    text-align: justify;
 `
 const Button = styled.button`
     width: 140px;
@@ -103,13 +103,7 @@ export const SobreMim = (props) => {
                     Sobre mim
                 </Title>
                 <Text>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident,
-                    sunt in cupidatatlpa qui officia deserunt mollit anim id est laborum.
+                    Apesar da formação em Administração e em Relações Públicas, sempre me vi perto da tecnologia, seja no ambiente de trabalho ou na atuação, tendo experiência como analista de projetos. Até que tive a oportunidade de estudar programação e não consegui mais ficar longe. Conclui o Curso de Desenvolvimento Full Stack da Labenu e estou em transição de carreira, com uma vontade imensa de aprender mais e sempre. 
                 </Text>
                 <Tecnologias>
                     <Block>

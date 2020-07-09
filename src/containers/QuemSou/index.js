@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from "styled-components";
-import lion from './lion.png'
+import perfil2 from './perfil2.png';
+
 
 const Container = styled.div`
     display: grid;
@@ -87,7 +88,7 @@ export const QuemSou = (props) => {
                 </Subtitulo2>
             </CardEuSou>
             <ImagemDiv>
-                <Photo src={lion} title="photo"/>
+                <Photo src={perfil2} title="photo"/>
             </ImagemDiv>
         </Container>
     )
