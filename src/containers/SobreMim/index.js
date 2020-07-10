@@ -33,8 +33,8 @@ const Memoji = styled.img`
 const Text = styled.div`
     width: 368px;
     height: 122px;
-    font-family: Roboto;
-    font-size: 13px;
+    /* font-family: Roboto; */
+    font-size: 12px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -52,8 +52,8 @@ const Button = styled.button`
     margin-top: 10px; 
 `
 const Tecnologias = styled.div`
+    padding-top: 3vh;
     display: flex; 
-
 `
 const Tecs = styled.div`
 /*     width: 60px; */
@@ -94,7 +94,7 @@ export const SobreMim = (props) => {
     }
 
     return (
-        <Container>
+        <Container id='SobreMim'>
             <div>
             <Memoji src={memoji} />
             </div>

@@ -45,9 +45,9 @@ const TitleCard = styled.div`
     padding-top: 2vh;
     padding-left: 2vh;
     width: 262px;
-    height: 50px;
+    /* height: 50px; */
     font-family: Montserrat;
-    font-size: 21px;
+    font-size: 17px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
