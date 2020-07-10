@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
+import { SobreMim } from '../SobreMim/index';
 
 
 const Headers = styled.header`
@@ -8,10 +9,17 @@ const Headers = styled.header`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 2vh;
-    margin-left: 2vh;
+/*     margin-right: 2vh;
+    margin-left: 2vh; */
+   position: fixed;
+    top: 0;
+    bottom: 0;  
+    right: 0;
+    left: 0;
+    background: #ffff; 
 `
 const Name = styled.div`
+    padding-left: 2vh;
     display: flex;
     align-items: center;
     width: 100px;
@@ -32,10 +40,10 @@ const DivButtons = styled.div`
 `
 
 const ButtonQuemSou = styled.button`
-    width: 80px;
+    width: 83px;
     height: 19px;
     font-family: Montserrat;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -51,7 +59,7 @@ const Buttons = styled.button`
     width: 64px;
     height: 19px;
     font-family: Montserrat;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -71,15 +79,21 @@ export const Header = (props) => {
                 nauaramelo 
             </Name>
             <DivButtons>
-                <ButtonQuemSou>
-                    quem sou
-                </ButtonQuemSou>
-                <Buttons>
-                    projetos
-                </Buttons>
-                <Buttons>
-                    contato
-                </Buttons>
+                <a href='#SobreMim' >
+                    <ButtonQuemSou>
+                        quem sou
+                    </ButtonQuemSou>
+                </a>
+                <a href='#Projetos'>
+                    <Buttons>
+                        projetos
+                    </Buttons>
+                </a>
+                <a href='#Contato'>
+                    <Buttons>
+                        contato
+                    </Buttons>
+                </a>
             </DivButtons>
         </Headers>
     )

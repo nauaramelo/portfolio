@@ -58,7 +58,7 @@ const Memoji = styled.img`
 export const Contact = () => {
 
     return (
-        <Container>
+        <Container id='Contato'>
             <Title>
                 Contrate-me!
             </Title>

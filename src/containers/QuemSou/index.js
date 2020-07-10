@@ -4,6 +4,7 @@ import perfil2 from './perfil2.png';
 
 
 const Container = styled.div`
+    height: 560px;
     display: grid;
     grid-template-areas:
     "card photo";
@@ -13,7 +14,7 @@ const Container = styled.div`
 const CardEuSou = styled.div`
     grid-area: card;
     /* width: 840px; */
-    /* height: 522px; */
+    height: 100%;
     background-color: rgba(113, 202, 223, 0.47);
     display: flex;
     flex-direction: column;
@@ -24,7 +25,7 @@ const CardEuSou = styled.div`
 const NauaraMelo = styled.div`
     /* width: 300px;  */
     height: 122px;
-    font-family: Roboto;
+    font-family: Montserrat;
     font-size: 50px;
     font-weight: normal;
     font-stretch: normal;
@@ -37,6 +38,7 @@ const NauaraMelo = styled.div`
 
 const Subtitulo = styled.div`
     /* width: 300px; */
+    padding-left: 2vh;
     height: 29px;
     font-family: Montserrat;
     font-size: 22px;
@@ -49,6 +51,7 @@ const Subtitulo = styled.div`
 `
 const Subtitulo2 = styled.div`
     /* width: 337px; */
+    padding-left: 2vh;
     height: 19px;
     font-family: Montserrat;
     font-size: 16px;

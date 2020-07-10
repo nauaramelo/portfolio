@@ -58,7 +58,7 @@ const Text = styled.div`
     padding-top: 18px;
     height: 122px;
     font-family: Montserrat;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -138,7 +138,7 @@ const Infos = styled.div`
 export const Projetos = () => {
 
     return (
-        <Container>
+        <Container id='Projetos'>
             <Title>
                 Meus Projetos
             </Title>
