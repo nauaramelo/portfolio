@@ -96,7 +96,7 @@ export const Educacao = () => {
                         Administração na Faculdade Maurício de Nassau
                     </TitleCard>
                     <TextCard>
-                        4 anos - 2011-2014 <br/>
+                        2011-2014 <br/>
                         <br/>
                         Bacharel em Administração pela Faculdade Mauricio de Nassau, estudei planejamento, organização e gerenciamento do uso dos recursos pessoais e financeiros de uma organização. Além de práticas para elaboração de estratégias visando melhorar o desempenho da empresa, maximizar os lucros, evitar desperdícios e reduzir custos.
                     </TextCard>
@@ -106,7 +106,7 @@ export const Educacao = () => {
                         Relações Públicas na Universidade Federal da PB
                     </TitleCard>
                     <TextCard>
-                        5 anos - 2012 - 2017 <br/>
+                        2012 - 2017 <br/>
                         <br/>
                         A UFPB forma profissionais que constroem, promovem e preservam a imagem e reputação de empresas, marcas e instituições, por meio de projetos de comunicação. Suas estratégias criativas afetam diretamente a dinâmica das organizações, ao colaborar com a criação da identidade e da imagem corporativa. 
                     </TextCard>

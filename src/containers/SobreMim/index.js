@@ -49,7 +49,8 @@ const Button = styled.button`
     border-radius: 8px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     background-color: #bf3c3b;
-    margin-top: 10px; 
+    margin-top: 10px;
+    cursor: pointer; 
 `
 const Tecnologias = styled.div`
     padding-top: 3vh;
@@ -87,12 +88,6 @@ const Infos = styled.div`
 
 
 export const SobreMim = (props) => {
-
-    function download() {
-        var iframe = document.getElementById('invisible');
-        iframe.src = cvnauaramelo;
-    }
-
     return (
         <Container id='SobreMim'>
             <div>

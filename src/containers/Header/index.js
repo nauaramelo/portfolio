@@ -1,17 +1,12 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import styled from "styled-components";
-import { SobreMim } from '../SobreMim/index';
-
 
 const Headers = styled.header`
-    /* width: 1280px; */
     height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-/*     margin-right: 2vh;
-    margin-left: 2vh; */
-   position: fixed;
+    position: fixed;
     top: 0;
     bottom: 0;  
     right: 0;
@@ -50,47 +45,69 @@ const ButtonQuemSou = styled.button`
     line-height: normal;
     letter-spacing: -0.22px;
     text-align: center;
-    color: #bf3c3b;
+    color: ${props => !props.isActive ? '#377d8c' : '#bf3c3b'};
     background-color: transparent;
     border: none;
+    cursor: pointer;
 `
 
-const Buttons = styled.button`
+const Buttons = styled(ButtonQuemSou)`
     width: 64px;
-    height: 19px;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: -0.22px;
-    text-align: center;
-    color: #377d8c;
-    background-color: transparent;
-    border: none;
 `
+const containers = {
+    containerQuemSouId: 'SobreMim',
+    containerProjetosId: 'Projeto',
+    containerContatoId: 'Contato'
+}
 
 export const Header = (props) => {
-    
+    const [state, setState] = useState({
+        botaoAtivo: 'SobreMim'
+    })
+
+    const isInViewport = (idContainer) => {
+        const box = document.getElementById(idContainer);
+        const rect = box.getBoundingClientRect();
+
+        const isInViewport = rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <= (window.innerHeight || window.document.documentElement.clientHeight) &&
+            rect.right <= (window.innerWidth || window.document.documentElement.clientWidth);
+
+        return isInViewport;
+    }
+
+    const handleScroll = () => {
+        for (let key in containers) {
+            if (isInViewport(containers[key])) {
+                setState({ botaoAtivo: containers[key] })
+            }
+        }
+
+    }
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll)
+    })
+
     return (
         <Headers>
             <Name>
-                nauaramelo 
+                nauaramelo
             </Name>
             <DivButtons>
                 <a href='#SobreMim' >
-                    <ButtonQuemSou>
+                    <ButtonQuemSou isActive={state.botaoAtivo === 'SobreMim'}>
                         quem sou
                     </ButtonQuemSou>
                 </a>
-                <a href='#Projetos'>
-                    <Buttons>
+                <a href='#Projeto'>
+                    <Buttons isActive={state.botaoAtivo === 'Projeto'}>
                         projetos
                     </Buttons>
                 </a>
                 <a href='#Contato'>
-                    <Buttons>
+                    <Buttons isActive={state.botaoAtivo === 'Contato'}>
                         contato
                     </Buttons>
                 </a>

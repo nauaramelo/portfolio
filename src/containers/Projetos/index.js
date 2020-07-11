@@ -87,6 +87,7 @@ const Button = styled.button`
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     background-color: #337d8d;
     color: #ffffff;
+    cursor: pointer;
 `
 
 const ButtonAllProjects = styled.button`
@@ -98,6 +99,7 @@ const ButtonAllProjects = styled.button`
     border: solid 1px #ffffff;
     background-color: #bf3c3b;
     color: #ffffff;
+    cursor: pointer;
 `
 
 const Memoji = styled.img`
@@ -131,6 +133,10 @@ const DivButton = styled.div`
     text-decoration: none;
 `
 
+const Link = styled.a`
+    text-decoration: none;
+`
+
 const Infos = styled.div`
     grid-area: "infos";
 `
@@ -138,7 +144,7 @@ const Infos = styled.div`
 export const Projetos = () => {
 
     return (
-        <Container id='Projetos'>
+        <Container id='Projeto'>
             <Title>
                 Meus Projetos
             </Title>
@@ -155,11 +161,11 @@ export const Projetos = () => {
                         <Text>
                             Esse é um projeto para implementar uma rede social em ReactJs. A ideia é fazer uma rede real, com cadastro, login, posts, likes e comentários, tendo como base o reddit.com. Foi desenvolvido no módulo Front-end do Curso Web Full Stack da Labenu e também foi utilizado redux, axios, styled components e material ui.  
                         </Text>
-                        <a href={'https://github.com/nauaramelo/labenu-4eddit-frontend'} target='blank'>
+                        <Link href={'https://github.com/nauaramelo/labenu-4eddit-frontend'} target='blank'>
                             <Button>
                                 ver no Github
                             </Button>
-                        </a>
+                        </Link>
                     </Infos>
                 </Card>
                 <Card>
@@ -173,13 +179,13 @@ export const Projetos = () => {
                         <Text>
                         O LaBook é uma rede social com o objetivo de promover a conexão e interação entre seus mais diversos usuários. Os usuários podem criar posts de dois tipos ("evento" ou "normal), comentá-los e curti-los também. Foi desenvolvido em node, com typeScript, express, knex e utiliza como banco de dados o MYSQL.  
                         </Text>
-                        <a href={'https://github.com/nauaramelo/labenu-labook-backend'} target='blank'>
+                        <Link href={'https://github.com/nauaramelo/labenu-labook-backend'} target='blank'>
                             <DivButton>
                                 <Button>
                                     ver no Github
                                 </Button>
                             </DivButton>
-                        </a>
+                        </Link>
                     </Infos>
                     <Memoji src={ipad} title="Labook"/>
                 </Card>
@@ -196,24 +202,24 @@ export const Projetos = () => {
                             O Spotenu é um projeto que visa facilitar o acesso a músicas pelo mundo. Para isso, oferece suporte para dois tipos de usuários: as bandas (ou músicos) e os ouvintes (usuários que consomem as músicas). Além disso, montamos uma operação com funcionários próprios que precisam gerenciar os dados que circulam no nosso sistema. 
                         </Text>
                         <ButtonsCostumers>
-                            <a href={'https://github.com/nauaramelo/spotenu-front'} target='blank'>
+                            <Link href={'https://github.com/nauaramelo/spotenu-front'} target='blank'>
                                 <ButtonFullStack>
                                     front-end no Github
                                 </ButtonFullStack>
-                            </a>
-                            <a href={'https://github.com/nauaramelo/spotenu-back'} target='blank'>
+                            </Link>
+                            <Link href={'https://github.com/nauaramelo/spotenu-back'} target='blank'>
                                 <ButtonFullStack>
                                     back-end no Github
                                 </ButtonFullStack>
-                            </a>
+                            </Link>
                         </ButtonsCostumers>
                     </Infos>
                 </Card>
-                <a href={'https://github.com/nauaramelo'} target='blank'>
+                <Link href={'https://github.com/nauaramelo'} target='blank'>
                     <ButtonAllProjects>
                         mais projetos
                     </ButtonAllProjects>
-                </a>
+                </Link>
             </Cards>
         </Container>
     )
