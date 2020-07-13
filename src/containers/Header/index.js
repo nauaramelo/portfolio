@@ -69,13 +69,13 @@ export const Header = (props) => {
         const box = document.getElementById(idContainer);
         const rect = box.getBoundingClientRect();
 
-        const isInViewport = rect.top >= 0 &&
-            rect.left >= 0 &&
-            rect.bottom <= (window.innerHeight || window.document.documentElement.clientHeight) &&
-            rect.right <= (window.innerWidth || window.document.documentElement.clientWidth);
-
-        return isInViewport;
+        const isInViewport = rect.top <= (window.innerHeight || window.document.documentElement.clientHeight) &&
+            rect.bottom >= 0
+ 
+        return isInViewport
     }
+
+
 
     const handleScroll = () => {
         for (let key in containers) {
@@ -88,7 +88,7 @@ export const Header = (props) => {
 
     useEffect(() => {
         window.addEventListener('scroll', handleScroll)
-    })
+    }, [])
 
     return (
         <Headers>
