@@ -1,7 +1,6 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://nauaramelo.github.io/portfolio/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -10,8 +9,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
-    "styled-components": "^5.1.1",
-    "typeface-montserrat": "0.0.75"
+    "styled-components": "^5.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
