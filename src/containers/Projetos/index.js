@@ -6,7 +6,6 @@ import imac from './imac.png';
 
 const Container = styled.div`
     width: 100%;
-    height: 1284px;
     background-color: #bf3c3b;
 `
 
@@ -14,8 +13,6 @@ const Title = styled.div`
     padding-top: 40px;
     width: 100%;
     height: 60px;
-    /* width: 183px;
-    height: 30px; */
     font-family: Montserrat;
     font-size: 35px;
     font-weight: bold;
@@ -69,7 +66,6 @@ const Text = styled.div`
 `
 
 const ButtonFullStack = styled.button`
-    /* width: 140px; */
     height: 30px;
     width: 140px;
     margin-right: 1vh;
@@ -91,7 +87,7 @@ const Button = styled.button`
 `
 
 const ButtonAllProjects = styled.button`
-    margin-top: 12vh;
+    margin-top: 8vh;
     width: 150px;
     height: 30px;
     border-radius: 8px;
@@ -100,12 +96,15 @@ const ButtonAllProjects = styled.button`
     background-color: #bf3c3b;
     color: #ffffff;
     cursor: pointer;
+    margin-bottom: 8vh;
+
+    @media (min-width: 2000px) {
+        margin-top: 4vh;
+    } 
 `
 
 const Memoji = styled.img`
     grid-area: "memoji";
-    /* width: 312px;
-    height: 216px; */
     width: 100%;
     height: 200px;
     object-fit: contain;
@@ -121,6 +120,10 @@ const Card = styled.div`
     grid-template-columns: 50% auto;
     column-gap: 3.5vh;
     width: 522px;
+
+    @media (min-width: 2000px) {
+        padding-top: 5vh;
+    } 
 `
 
 const ButtonsCostumers = styled.div`
