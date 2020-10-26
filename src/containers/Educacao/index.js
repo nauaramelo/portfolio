@@ -46,7 +46,7 @@ const Card = styled.div`
     background-color: #ffffff;
 
     @media (min-width: 1400px) {
-        height: 15vh;
+        height: 25vh;
     }
 
     @media (min-width: 768px) and (max-width: 1200px) {
