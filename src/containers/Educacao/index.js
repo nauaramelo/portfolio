@@ -49,7 +49,7 @@ const Card = styled.div`
         height: 25vh;
     }
 
-    @media (min-width: 2800px) and (min-height: 1800px) {
+    @media (min-width: 1200px) and (min-height: 1800px) {
         height: 14vh;
     }
 
