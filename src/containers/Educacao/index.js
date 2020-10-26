@@ -49,8 +49,8 @@ const Card = styled.div`
         height: 25vh;
     }
 
-    @media (height: 1880px) and (width: 2880px) {
-        height: 15vh;
+    @media (min-width: 2800px) and (min-height: 1800px) {
+        height: 14vh;
     }
 
     @media (min-width: 768px) and (max-width: 1200px) {
