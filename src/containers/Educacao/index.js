@@ -31,14 +31,31 @@ const Cards = styled.div`
     padding-top: 50px;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;  
+    align-items: center; 
+
+
+    @media (min-width: 2000px) {
+        width:70rem;
+    } 
 `
 
 const Card = styled.div`
     width: 300px;
-    height: 220px;
+    height: 35vh;
     border-radius: 8px;
     background-color: #ffffff;
+
+    @media (min-width: 1400px) {
+        height: 25vh;
+    }
+
+    @media (min-width: 2800px) and (min-height: 1800px) {
+        height: 14vh;
+    }
+
+    @media (min-width: 768px) and (max-width: 1200px) {
+        height: 15vh;
+    }
 `
 
 const TitleCard = styled.div`
@@ -54,6 +71,11 @@ const TitleCard = styled.div`
     line-height: normal;
     letter-spacing: -0.28px;
     color: #377d8c;
+
+    @media (min-width: 2000px) {
+        padding-left: 1vh;
+    }
+
 `
 
 const TextCard = styled.div`
@@ -70,6 +92,10 @@ const TextCard = styled.div`
     letter-spacing: -0.16px;
     color: #377d8c;
     text-align: justify;
+
+    @media (min-width: 2000px) {
+        padding-left: 1vh;
+    }
 `
 
 export const Educacao = () => {

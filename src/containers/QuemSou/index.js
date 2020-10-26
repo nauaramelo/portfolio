@@ -4,7 +4,6 @@ import perfil2 from './perfil2.png';
 
 
 const Container = styled.div`
-    height: 560px;
     display: grid;
     grid-template-areas:
     "card photo";
